@@ -47,8 +47,8 @@ interface B {b:number}
 
 interface C extends A,B {}
 
-//Generics(Mostly used in prisma/drizzle)
-function wrapInArray<T>(item: T): T[]{
+//Generics(Mostly used in prisma/drizzle) 
+function wrapInArray<T>(item: T): T[]{   //<> angular brackets
     return [item]
 }
 
